@@ -1,0 +1,13 @@
+8638 neutral
+8459 worry
+5209 happiness
+5165 sadness
+3842 love
+2187 surprise
+1776 fun
+1526 relief
+1323 hate
+ 827 empty
+ 759 enthusiasm
+ 179 boredom
+ 110 anger
