@@ -1,0 +1,39 @@
+{
+  "name": "data-for-everyone-sentiment-analysis-emotion-in-text",
+  "title": "Sentiment Analysis: Emotion in Text (from crowdflower.com)",
+  "datapackage_version": "1.0-beta",
+  "description": "In a variation on the popular task of sentiment analysis, this dataset contains labels for the emotional content (such as happiness, sadness, and anger) of texts. Hundreds to thousands of examples across 13 labels. A subset of this data is used in an experiment we uploaded to Microsoft’s Cortana Intelligence Gallery (https://gallery.cortanaintelligence.com/Experiment/Logistic-Regression-for-Text-Classification-Sentiment-Analysis-1#).
+Added: July 15, 2016 by CrowdFlower | Data Rows: 40000",
+  "version": "2.0",
+  "keywords": [
+    "crowdflower.com",
+    "sentiment",
+    "text"
+  ],
+  "licenses": [{
+    "url": "http://opendatacommons.org/licenses/pddl/",
+    "name": "Open Data Commons Public Domain",
+    "id": "odc-pddl"
+  }],
+  "sources": [{
+    "name": "Crowdflower.com Data for Everyone",
+    "web": "https://www.crowdflower.com/wp-content/uploads/2016/07/text_emotion.csv"
+  }],
+  "maintainers":[ {
+    "name": "Crowdflower.com",
+    "web": "https://www.crowdflower.com/data-for-everyone/"
+  }],
+  "publishers":[ {
+    "name": "Crowdflower.com",
+    "web": "https://www.crowdflower.com/data-for-everyone/"
+  }],
+  "dependencies": {
+    "data-package-name": ">=1.0"
+  },
+  "resources": [
+    {
+      "path": "data/text_emption.csv",
+      "url": "https://www.crowdflower.com/wp-content/uploads/2016/07/text_emotion.csv"
+    }
+  ],
+}
